@@ -1,2 +1,3 @@
 # Calculator
-Calculator Project
+
+Calculator Project doing basic calculations
