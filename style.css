@@ -13,7 +13,6 @@ body {
   display: border-box;
   background: #4a4f61;
   /* background: #36363a; */
-  background: #60666a;
 }
 
 .wrapper {
@@ -30,19 +29,24 @@ body {
   /* background-color: #2a6390; */
 }
 
+.calculator-display {
+  max-width: 300px;
+}
+
 .calculator-display span {
   height: 80px;
   display: flex;
   justify-content: end;
   align-items: center;
-  border: 1px solid black;
+  border: 2px solid black;
   margin-bottom: 10px;
-  background-color: #4a4f61;
-}
-
-.text-display {
-  height: 70px;
-  width: 300px;
+  /* background-color: #4a4f61; */
+  background-color: #b2b9b7;
+  color: black;
+  /* color: rgb(201, 201, 201); */
+  font-size: 40px;
+  padding-right: 10px;
+  /* max-width: 300px; */
 }
 
 .calculator-keypad {
@@ -54,12 +58,31 @@ body {
 
 .calculator-keypad button {
   /* flex: 1 1 25%; */
-  background-color: var(--hover);
+  background-color: rgba(254, 245, 251, 0.699);
+  /* background-color: var(--hover); */
   font-size: 20px;
 }
 
-.number-zero {
+.btn:hover {
+  border: 2px solid #a89764;
+}
+
+#result:hover {
+  border: 2px solid #a89764;
+}
+
+#result:active {
+  background-color: #282c34;
+}
+
+.button-zero {
   width: 140px;
+}
+
+.calculator-keypad button.special {
+  background-color: #282c34;
+  color: white;
+  border: 2px solid #a89764;
 }
 
 button {

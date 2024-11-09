@@ -13,32 +13,34 @@
       <div class="calculator-container">
         <div class="calculator-display-container">
           <div class="calculator-display">
-            <span></span>
+            <span id="display">0</span>
           </div>
         </div>
         <div class="calculator-keypad">
-          <button class="buttons">AC</button>
-          <button class="buttons">+/-</button>
-          <button class="buttons">%</button>
-          <button class="buttons">/</button>
-          <button class="buttons">7</button>
-          <button class="buttons">8</button>
-          <button class="buttons">9</button>
-          <button class="buttons">X</button>
-          <button class="buttons">4</button>
-          <button class="buttons">5</button>
-          <button class="buttons">6</button>
-          <button class="buttons">-</button>
-          <button class="buttons">1</button>
-          <button class="buttons">2</button>
-          <button class="buttons">3</button>
-          <button class="buttons">+</button>
-          <button class="number-zero">0</button>
-          <button class="buttons">,</button>
-          <button class="buttons">=</button>
+          <button class="btn" id="delete">AC</button>
+          <button class="btn operator">+/-</button>
+          <button class="btn operator">%</button>
+          <button class="btn operator">/</button>
+
+          <button class="btn numbers">7</button>
+          <button class="btn numbers">8</button>
+          <button class="btn numbers">9</button>
+          <button class="btn operator">x</button>
+          <button class="btn numbers">4</button>
+          <button class="btn numbers">5</button>
+          <button class="btn numbers">6</button>
+          <button class="btn operator">-</button>
+          <button class="btn numbers">1</button>
+          <button class="btn numbers">2</button>
+          <button class="btn numbers">3</button>
+          <button class="btn operator">+</button>
+          <button class="btn button-zero numbers">0</button>
+          <button class="btn period">.</button>
+          <button class="btn-operator" id="result">=</button>
         </div>
       </div>
     </div>
   </body>
-  <script src="script.js"></script>
+
+  <script defer src="script.js"></script>
 </html>
