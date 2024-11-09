@@ -62,7 +62,7 @@ resultButton.addEventListener("click", () => {
 
 // clearText function whenever i click AC
 function clearDisplayText() {
-    // document.querySelector(".special")?.classList.remove("special");
+    document.querySelector(".special")?.classList.remove("special");
     if (deleteOperator) {
         currentNumber = 0;
         prevNumber = 0;
@@ -75,7 +75,7 @@ function clearDisplayText() {
 // keypad buttons
 keypadButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
-        document.querySelector(".special") ? .classList.remove("special");
+        document.querySelector(".special")?.classList.remove("special");
         currentNumber += btn.textContent;
 
         currentNumber = parseInt(currentNumber);
@@ -91,7 +91,7 @@ keypadButtons.forEach((btn) => {
 
 operatorButton.forEach((btn) => {
     btn.addEventListener("click", () => {
-        // document.querySelector(".special")?.classList.remove("special");
+        document.querySelector(".special")?.classList.remove("special");
         btn.classList.add("special");
 
         operator = btn.textContent;
