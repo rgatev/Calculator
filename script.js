@@ -84,8 +84,8 @@ keypadButtons.forEach((btn) => {
         } else {
             display.textContent += btn.textContent;
         }
-        currentNumber = display.textContent;
     });
+        currentNumber = display.textContent;
 });
 // operator buttons
 
