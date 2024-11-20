@@ -31,6 +31,7 @@ body {
 
 .calculator-display {
   max-width: 300px;
+  overflow: hidden;
 }
 
 .calculator-display span {
@@ -72,7 +73,19 @@ body {
 }
 
 #result:active {
+  background-color: hsl(220, 13%, 40%);
+}
+
+#percent:hover {
+  border: 2px solid #a89764;
+}
+
+#percent:active {
   background-color: #282c34;
+}
+
+#delete:active {
+  background-color: hsl(220, 13%, 40%);
 }
 
 .button-zero {
